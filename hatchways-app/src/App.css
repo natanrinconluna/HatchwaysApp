@@ -93,3 +93,56 @@ body{
   padding-right: 1em;
   color: rgb(255, 255, 255);
 }
+
+.Titles{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid;
+}
+
+#Route-1{
+  padding: 1em;
+  border: 1px solid;
+}
+#Route-2{
+  padding: 1em;
+  border: 1px solid;
+}
+#Route-3{
+  padding: 1em;
+  border: 1px solid;
+}
+.Return-Box{
+  display: flex;
+    border: 1px solid;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 30em;
+    height: 50em;
+}
+.Results-Box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid;
+}
+
+#Result-1{
+  padding: 1em;
+  border: 1px solid;
+}
+#Result-2{
+  padding: 1em;
+  border: 1px solid;
+}
+#Result-3{
+  padding: 1em;
+  border: 1px solid;
+}
+.mid-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

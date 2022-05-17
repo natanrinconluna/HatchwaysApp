@@ -1,13 +1,15 @@
 import "./App.css";
 import Header from "./components/Header";
-import React from 'react';
-import { StyledEngineProvider } from '@mui/material/styles';
+import Body from "./components/Body";
+import React from "react";
+import { StyledEngineProvider } from "@mui/material/styles";
 
 function App() {
   return (
     <StyledEngineProvider injectFirst>
       <div>
         <Header />
+        <Body />
       </div>
     </StyledEngineProvider>
   );
