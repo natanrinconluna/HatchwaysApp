@@ -2,15 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background-color: #ebebeb;
 }
 
 .App-header {
@@ -28,11 +21,75 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+    
+#rap-logo {
+  display: flex;
+  color: #fbfbfc;
+  padding: 1em;
+  width: 63%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+#rap-logo a {
+  color: #000000;
+  text-decoration: none;
+
+}
+
+.HeaderLinks {
+  background-color: #e4a51c;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  /* white-space: nowrap; */
+  width: 100%;
+  padding: 1em 0;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 1em;
+}
+
+.left-links {
+  display: flex;
+}
+
+.left-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  padding-right: 3.5em;
+}
+
+.left-links a:hover {
+  border-bottom: orange;
+}
+
+
+#ForLink {
+  display: flex;
+  justify-self: flex-end;
+  /* justify-content: flex-end;  */
+}
+#ForLink a{
+  text-decoration: none;
+  padding-right: 1em;
+  color: rgb(255, 255, 255);
 }
